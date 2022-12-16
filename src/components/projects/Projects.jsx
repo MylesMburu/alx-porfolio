@@ -26,7 +26,7 @@ const Projects = () => {
         </div>
         <h3>A personal portfolio project</h3>
         <div className='project__item-cta'>
-        <a href="https://github.com/MylesMburu" target="_blank" className='btn'>GitHub</a>
+        <a href="https://github.com/MylesMburu" target="_blank" rel="noopener noreferrer" className='btn'>GitHub</a>
         </div>
         </SwiperSlide>
       </Swiper>
