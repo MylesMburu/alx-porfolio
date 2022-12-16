@@ -1,0 +1,39 @@
+.container.contact__container{
+    
+    margin-top: 2rem;
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea{
+    justify-content: center;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: var(--color-white);
+    border-radius: 50px ;
+    resize: none;
+    color: black;
+}
+
+/*===== MEDIA QUERIES FOR MEDIUM DEVICES====*/
+@media screen and (max-width: 1024px){
+    
+}
+
+/*===== MEDIA QUERIES FOR MEDIUM DEVICES====*/
+@media screen and (max-width: 1024px){
+    .container.contact__container{
+    width: var(--container-width-sm);
+    }
+}

@@ -81,11 +81,11 @@ a:hover{
 }
 
 .btn{
-    width: max-content;
+    width: 150px;
     display: inline-block;
     color: var(--color-primary);
     padding: 0.75remm 1.2remm;
-    border-radius: 0.4remm;
+    border-radius: 15px;
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
@@ -99,7 +99,7 @@ a:hover{
 
 .btn-primary{
     background: var(--color-primary);
-    color: var(--color-bg);
+    color: var(--color-white);
 }
 
 img{
@@ -108,15 +108,6 @@ img{
     object-fit: cover;
 }
 
-/*===== MEDIA QUERIES FOR MEDIUM DEVICES====*/
-@media screen and (max-width: 1024px){
-    .container{
-        width: var(--container-width-md);
-    }
-    section{
-        margin-top: 6remm;
-    }
-}
 
 /*===== MEDIA QUERIES FOR SMALL DEVICES====*/
 @media screen and (max-width: 600px){
