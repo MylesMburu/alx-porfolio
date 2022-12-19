@@ -1,8 +1,7 @@
-.projects{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:2.5rem;
+#projects{
+    padding-top: 7rem;
 }
+
 .project__item{
     background: #0f0e22;
     padding: 1.3rem;

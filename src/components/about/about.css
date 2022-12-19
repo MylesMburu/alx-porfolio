@@ -1,5 +1,6 @@
 #about h2{
     margin-top: 5rem;
+    padding-top: 7rem;
 }
 
 .btn-primary{
@@ -14,6 +15,7 @@
     display: grid;
     grid-template-columns: 35% 35%;
     gap: 15%;
+   ;
     
 }
 .about__me{
@@ -55,12 +57,12 @@
     }
 }
 
-/*===== MEDIA QUERIES FOR MEDIUM DEVICES====*/
+/*===== MEDIA QUERIES FOR SMALL DEVICES====*/
 @media screen and (max-width: 600px){
     
     .about__me{
         width: 50%;
-        margin: 0 auto 3rem ;
+        margin: 0 auto 0 ;
     }
 
     .about__content {
@@ -68,7 +70,7 @@
     }
 
     .about__content p{
-        margin: 1.5rem 0 ;
+        margin: auto 0 ;
     }
 
 }

@@ -23,7 +23,7 @@ const About = () => {
           <p>
             I am a junior software engineer and cyber security enthusiast.
             I'm currently taking Computer Science at Kenyatta university.
-            I speacialize in front-end development and junior penetration testing.
+            I specialize in front-end development and junior penetration testing.
             My skill stack includes:
             HTML5, CSS3, JavaScript, React.js, Java, KaliLinux
           </p>
