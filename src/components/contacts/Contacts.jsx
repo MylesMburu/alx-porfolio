@@ -16,6 +16,7 @@ const Contacts = () => {
       });
 
       e.target.reset();
+      window.alert("Message sent")
   };
   return (
     <section id='contacts'>
