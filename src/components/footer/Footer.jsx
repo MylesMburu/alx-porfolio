@@ -13,7 +13,7 @@ const Footer = () => {
         <a href="https://twitter.com/mn_mylesss"><BsTwitter/></a>
       </div>
       <div className="footer__copyright">
-        <small> &copy; Myles M.N. All rights reserved</small>
+        <small> &copy; 2023 Myles M.N. All rights reserved</small>
       </div>
     </footer>
   )

@@ -1,3 +1,4 @@
+
 #about h2{
     margin-top: 5rem;
     padding-top: 7rem;
@@ -15,7 +16,7 @@
     display: grid;
     grid-template-columns: 35% 35%;
     gap: 15%;
-   ;
+   background-color: #2e296e;
     
 }
 .about__me{
