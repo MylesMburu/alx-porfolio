@@ -25,10 +25,10 @@ const About = () => {
             I'm currently taking Computer Science at Kenyatta university.
             I specialize in front-end development and junior penetration testing.
             My skill stack includes:
-            HTML5, CSS3, JavaScript, React.js, Java, KaliLinux
+            HTML5, CSS3, JavaScript, React.js, Java, KaliLinux.
           </p>
           <p>
-            I also happen to play the piano🙂
+            I also play the piano🎹.
           </p>
           <p className='stack'>
             <AiFillHtml5/><DiCss3/><IoLogoJavascript/><FaJava/><FaReact/><SiKalilinux/>
