@@ -2,6 +2,7 @@ import React from 'react'
 import './projects.css'
 import IMG1 from "../../assets/wanjapi/project1.png"
 import IMG2 from "../../assets/wanjapi/BMIproject.png"
+import IMG3 from "../../assets/wanjapi/LogIn.png"
 
 import { Navigation } from 'swiper';
 
@@ -22,6 +23,12 @@ const data = [
     id:2,
     image:IMG2,
     title:'A simple BMI calculator',
+    github:"https://github.com/MylesMburu"
+  },
+  {
+    id:3,
+    image:IMG3,
+    title:'A simple log in page',
     github:"https://github.com/MylesMburu"
   }
 ]
