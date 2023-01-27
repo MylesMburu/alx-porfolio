@@ -26,7 +26,7 @@ header {
     height: 30rem;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-10%);
     margin-top: 4rem;
     border-radius: 11rem;
     overflow: hidden;
@@ -38,11 +38,31 @@ header {
     header{
         height: 68vh;
     }
+    .header__container{
+        display: flex;
+        flex-direction: column;
+    }
+    .me{
+        margin-top: 15rem;
+        width:22rem;
+    height: 30rem;
+        transform: translateX(-50%);
+    }
 }
 
-/*===== MEDIA QUERIES FOR MEDIUM DEVICES====*/
+/*===== MEDIA QUERIES FOR SMALL DEVICES====*/
 @media screen and (max-width: 600px){
     header{
         height: 100vh;
+    }
+    .header__container{
+        display: flex;
+        flex-direction: column;
+    }
+    .me{
+        margin-top: 15rem;
+        width:22rem;
+    height: 30rem;
+        transform: translateX(-50%);
     }
 }
