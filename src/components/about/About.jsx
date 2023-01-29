@@ -19,7 +19,7 @@ const About = () => {
             <img src={ME} alt="" />
           </div>
         </div>
-        <div className="about__content">
+        <div className="about__content animate__animated">
           <p>
             I am a junior software engineer and cyber security enthusiast.
             I'm currently taking Computer Science at Kenyatta university.
