@@ -1,5 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './projects.css'
+import AOS from "aos";
+import "animate.css/animate.min.css";
+import 'aos/dist/aos.css'
 import IMG1 from "../../assets/wanjapi/project1.png"
 import IMG2 from "../../assets/wanjapi/BMIproject.png"
 import IMG3 from "../../assets/wanjapi/LogIn.png"
@@ -33,6 +36,11 @@ const data = [
   }
 ]
 const Projects = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <section id='projects'>
       <h2>Projects</h2>
@@ -41,12 +49,15 @@ const Projects = () => {
       modules={[Navigation]}
       spaceBetween={50}
       slidesPerView={1}
-      navigation>
+      navigation 
+      data-aos="flip-right"
+      data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
       {
       data.map(({id,image,title,github}) => {
       return(
         
-          <SwiperSlide key={id} className='project__item'>
+          <SwiperSlide key={id} className='project__item' >
           <div className='project__item-image'>
           <img src={image} alt="{title}" />
           </div>

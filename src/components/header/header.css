@@ -32,32 +32,7 @@ header {
     overflow: hidden;
     padding: 0 0 1.5rem 0 ;
 }
-/* animation */
-/* @keyframes fadeInDown {
-    from {
-      opacity: 0;
-      transform: translate3d(0, -100%, 0);
-    }
-  
-    to {
-      opacity: 1;
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  
-  .header__container h1,
-  .header__container h5 {
-    animation: fadeInDown 1s ease-in-out both;
-  }
-  
-  .header__container h1 {
-    animation-delay: 0.5s;
-  }
-  
-  .header__container h5 {
-    animation-delay: 1s;
-  }
-   */
+
 /*===== MEDIA QUERIES FOR MEDIUM DEVICES====*/
 @media screen and (max-width: 1024px){
     header{
@@ -78,16 +53,13 @@ header {
 /*===== MEDIA QUERIES FOR SMALL DEVICES====*/
 @media screen and (max-width: 600px){
     header{
-        height: 100vh;
+        height: 50vh;
     }
     .header__container{
         display: flex;
         flex-direction: column;
     }
     .me{
-        margin-top: 15rem;
-        width:22rem;
-    height: 30rem;
-        transform: translateX(-50%);
+        display: none;
     }
 }
