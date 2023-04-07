@@ -32,3 +32,8 @@
 .btn{
     text-align: center;
 }
+@media screen and (max-width: 600px){
+    .project__item-image{
+        height: 150px;
+    }
+}

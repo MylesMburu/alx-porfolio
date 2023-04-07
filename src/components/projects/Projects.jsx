@@ -4,12 +4,10 @@ import AOS from "aos";
 import "animate.css/animate.min.css";
 import 'aos/dist/aos.css'
 import IMG1 from "../../assets/wanjapi/project1.png"
-import IMG2 from "../../assets/wanjapi/BMIproject.png"
-import IMG3 from "../../assets/wanjapi/LogIn.png"
-import IMG4 from "../../assets/wanjapi/to do list.png"
+import IMG2 from "../../assets/wanjapi/dishi.png"
+import IMG3 from "../../assets/wanjapi/to do list.png"
 
 import { Navigation } from 'swiper';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -26,18 +24,12 @@ const data = [
   {
     id:2,
     image:IMG2,
-    title:'A simple BMI calculator',
+    title:'A recipe website',
     github:"https://github.com/MylesMburu"
   },
   {
     id:3,
     image:IMG3,
-    title:'A simple log in page',
-    github:"https://github.com/MylesMburu"
-  },
-  {
-    id:4,
-    image:IMG4,
     title:'To do list with deadline',
     github:"https://github.com/MylesMburu"
   }
