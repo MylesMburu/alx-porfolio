@@ -39,9 +39,7 @@ const About = () => {
             My skill stack includes:
             HTML5, CSS3, JavaScript, React.js, TailwindCSS ,MySQL , KaliLinux.
           </p>
-          <p>
-            I also play the piano🎹.
-          </p>
+          
           <p className='stack'>
             <AiFillHtml5/><DiCss3/><IoLogoJavascript/><FaReact/><SiMysql/><SiTailwindcss/><SiKalilinux/>
           </p>
