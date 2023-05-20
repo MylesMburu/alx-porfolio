@@ -19,19 +19,22 @@ const data = [
     id:1,
     image:IMG1,
     title: 'A personal portfolio project',
-    github:"https://github.com/MylesMburu"
+    github:"https://github.com/MylesMburu",
+    live: "https://mylesmburu.netlify.app/"
   },
   {
     id:2,
     image:IMG2,
     title:'A recipe website',
-    github:"https://github.com/MylesMburu"
+    github:"https://github.com/MylesMburu",
+    live: "https://dishi-five.vercel.app/"
   },
   {
     id:3,
     image:IMG3,
     title:'To do list with deadline',
-    github:"https://github.com/MylesMburu"
+    github:"https://github.com/MylesMburu",
+    live: "https://mylesmburu.netlify.app/"
   }
 ]
 const Projects = () => {
@@ -63,6 +66,7 @@ const Projects = () => {
           <h3>{title}</h3>
           <div className='project__item-cta'>
           <a href={github} target="_blank" rel="noopener noreferrer" className='btn'>GitHub</a>
+          <a href={live} target='blank'rel="noopener noreferrer" className='btn' >Live Demo</a>
           </div>
           </SwiperSlide>
       )}
