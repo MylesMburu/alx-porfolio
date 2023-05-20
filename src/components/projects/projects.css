@@ -31,6 +31,7 @@
 
 .btn{
     text-align: center;
+    margin: 0.5rem;
 }
 @media screen and (max-width: 600px){
     .project__item-image{

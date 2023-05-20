@@ -34,7 +34,7 @@ const data = [
     image:IMG3,
     title:'To do list with deadline',
     github:"https://github.com/MylesMburu",
-    live: "https://mylesmburu.netlify.app/"
+    live: "https://recaller.netlify.app/"
   }
 ]
 const Projects = () => {
@@ -56,7 +56,7 @@ const Projects = () => {
       data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
       {
-      data.map(({id,image,title,github}) => {
+      data.map(({id,image,title,github,live}) => {
       return(
         
           <SwiperSlide key={id} className='project__item' >
