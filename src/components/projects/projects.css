@@ -9,10 +9,6 @@
     border: 1px solid transparent;
     transition: var(--transition) ;
 }
-.project__item:hover{
-    border-color: var(--color-primary-variant);
-    background: transparent;
-}
 
 .project__item-image{
     height: 500px;
