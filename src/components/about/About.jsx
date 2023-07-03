@@ -34,10 +34,13 @@ const About = () => {
           <p>
             I am a junior software engineer and cyber security enthusiast.
             I'm currently taking Computer Science at Kenyatta university.
-            I specialize in front-end development and junior penetration testing.
+            I specialize in Full-Stack Web development 
             <br/>
-            My skill stack includes:
-            HTML5, CSS3, JavaScript, React.js, TailwindCSS ,MySQL , KaliLinux.
+            <strong>Languages:</strong> <br />
+            JavaScript, Python, PHP
+            <br />
+            <strong>Tools,frameworks and libraries:</strong> <br />
+            ReactJS, Django, TailwindCSS, MySQL, MongoDB, Docker, Linux
           </p>
           
           <p className='stack'>
