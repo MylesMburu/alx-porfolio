@@ -3,10 +3,7 @@ import './projects.css'
 import AOS from "aos";
 import "animate.css/animate.min.css";
 import 'aos/dist/aos.css'
-import IMG1 from "../../assets/wanjapi/project1.png"
-import IMG2 from "../../assets/wanjapi/dishi.png"
-import IMG3 from "../../assets/wanjapi/to do list.png"
-
+import data from './ProjectData';
 import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -14,29 +11,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-const data = [
-  {
-    id:1,
-    image:IMG1,
-    title: 'A personal portfolio project',
-    github:"https://github.com/MylesMburu",
-    live: "https://mylesmburu.netlify.app/"
-  },
-  {
-    id:2,
-    image:IMG2,
-    title:'A recipe website',
-    github:"https://github.com/MylesMburu",
-    live: "https://dishi-five.vercel.app/"
-  },
-  {
-    id:3,
-    image:IMG3,
-    title:'To do list with deadline',
-    github:"https://github.com/MylesMburu",
-    live: "https://recaller.netlify.app/"
-  }
-]
+
 const Projects = () => {
 
   useEffect(() => {
