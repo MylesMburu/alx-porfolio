@@ -4,13 +4,6 @@ import AOS from "aos";
 import "animate.css/animate.min.css";
 import 'aos/dist/aos.css'
 import ME from "../../assets/wanjapi/myles2.jpg"
-import {AiFillHtml5} from 'react-icons/ai'
-import {DiCss3} from 'react-icons/di'
-import {IoLogoJavascript} from 'react-icons/io'
-import {SiMysql} from 'react-icons/si'
-import {FaReact} from 'react-icons/fa'
-import {SiKalilinux} from 'react-icons/si'
-import {SiTailwindcss} from 'react-icons/si'
 
 const About = () => {
 
@@ -20,7 +13,7 @@ const About = () => {
 
   return (
     <section id='about'>
-      <h2>About Me</h2>
+      <h2>Bio</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -32,19 +25,17 @@ const About = () => {
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
           <p>
-            I am a junior software engineer and cyber security enthusiast.
-            I'm currently taking Computer Science at Kenyatta university.
-            I specialize in Full-Stack Web development 
-            <br/>
-            <strong>Languages:</strong> <br />
-            JavaScript, Python, PHP
-            <br />
-            <strong>Tools,frameworks and libraries:</strong> <br />
-            ReactJS, Django, TailwindCSS, MySQL, MongoDB, Docker, Linux
-          </p>
-          
-          <p className='stack'>
-            <AiFillHtml5/><DiCss3/><IoLogoJavascript/><FaReact/><SiMysql/><SiTailwindcss/><SiKalilinux/>
+          Meet Myles Mburu, a driven Computer Science student at Kenyatta University with a passion
+          for web development and cloud technologies. Currently serving as a web developer, Myles is
+          deeply immersed in honing his skills and expertise while exploring the vast possibilities of the
+          AWS cloud.</p>
+          <p>Looking ahead, Myles aspires to become a highly skilled Web Security and Cloud
+          Security Engineer, aiming to make a meaningful impact in safeguarding online environments.
+          Impressive and relevant achievements grace Myles' journey, from excelling in academic
+          endeavors and acing campus grades to showcasing his talent by building several captivating
+          websites for personal projects and clients alike. Moreover, Myles has demonstrated his
+          creativity and problem-solving acumen by winning a hackathon, further cementing his
+          commitment to continuous growth and innovation in the realm of technology
           </p>
           <a href="#contacts" className='btn btn-primary'>Let's talk</a>
         </div>

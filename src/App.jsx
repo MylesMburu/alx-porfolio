@@ -5,6 +5,7 @@ import About from "./components/about/About"
 import Projects from "./components/projects/Projects"
 import Contacts from "./components/contacts/Contacts"
 import Footer from "./components/footer/Footer"
+import { Elevator } from './components/elevator_pitch/Elevator'
 
 
 
@@ -16,6 +17,7 @@ const App = () => {
     <Nav/>
     <About/>
     <Projects/>
+    <Elevator/>
     <Contacts/>
     <Footer/>
     </>

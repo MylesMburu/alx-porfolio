@@ -3,9 +3,7 @@ import './projects.css'
 import AOS from "aos";
 import "animate.css/animate.min.css";
 import 'aos/dist/aos.css'
-import data from './ProjectData';
-import { Navigation } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import presentation from "../../assets/wanjapi/Screenshot 2023-08-12 103142.png"
 
 // Import Swiper styles
 import 'swiper/css';
@@ -19,36 +17,28 @@ const Projects = () => {
   }, []);
 
   return (
-    <section id='projects'>
-      <h2>Projects</h2>
-      
-      <Swiper className='container projects__container'
-      modules={[Navigation]}
-      spaceBetween={50}
-      slidesPerView={1}
-      navigation 
-      data-aos="flip-right"
-      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
-      {
-      data.map(({id,image,title,github,live}) => {
-      return(
-        
-          <SwiperSlide key={id} className='project__item' >
-          <div className='project__item-image'>
-          <img src={image} alt="{title}" />
-          </div>
-          <h3>{title}</h3>
-          <div className='project__item-cta'>
-          <a href={github} target="_blank" rel="noopener noreferrer" className='btn'>GitHub</a>
-          <a href={live} target='blank'rel="noopener noreferrer" className='btn' >Live Demo</a>
-          </div>
-          </SwiperSlide>
-      )}
-      )
-      }
-      </Swiper>
-    </section>
+    <div >
+      <section id='projects' className='yt-container'>
+            <h2>Portfolio</h2>
+              <div className="youtube-wrapper">
+              <iframe 
+              width="560"
+              height="315" 
+              src="https://www.youtube.com/embed/oV5aISZ-F-o" 
+              title="YouTube video player" 
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+              </iframe>
+              </div>   
+
+              <div className='presentation-container'>
+              <img src={presentation} className='presentation_image' alt="" />
+              <h3>Here's the link to the presentation: <a href="https://docs.google.com/presentation/d/1ILQpF2tvt7d8fZnEUX6O3p6lZq0YIH74u8iwMUllTiA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Jamless Mobility Presentation Slides</a></h3>
+              </div>   
+          </section>
+    </div>
+    
   )
   }
 export default Projects

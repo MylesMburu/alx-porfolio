@@ -21,7 +21,6 @@
 }
 .about__me{
     width: 100%;
-    aspect-ratio: 0.7/1;
     border-radius: 2rem;
     background: linear-gradient(
         45deg,
@@ -37,9 +36,7 @@
     
 }
 .about__content {
-    
     margin: 2rem 0 2.6rem;
-    margin-top: 10rem;
 }
 
 /*===== MEDIA QUERIES FOR MEDIUM DEVICES====*/

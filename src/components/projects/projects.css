@@ -2,22 +2,30 @@
     padding-top: 7rem;
 }
 
-.project__item{
-    background: #0f0e22;
-    padding: 1.3rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition) ;
-}
-
-.project__item-image{
+.presentation_image{
     height: 500px;
     border-radius: 1.5rem;
     overflow: hidden;
 }
 
+.presentation-container> * + * {
+    margin-top: 1rem;
+}
+
 .project__item h3{
     margin:1.2rem ;
+}
+
+.yt-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.youtube-wrapper{
+    margin: 1rem;
 }
 
 .project__item-cta{
